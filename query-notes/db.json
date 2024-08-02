@@ -1,0 +1,29 @@
+{
+  "notes": [
+    {
+      "content": "react query simplifies the communication with the backend",
+      "important": true,
+      "id": "1"
+    },
+    {
+      "content": "useReduce with context is an alternative way for data management",
+      "important": true,
+      "id": "2"
+    },
+    {
+      "id": "9a8e",
+      "content": "a new instance of useMutation was used",
+      "important": true
+    },
+    {
+      "id": "89d1",
+      "content": "it took mutation function was was the createNote function",
+      "important": false
+    },
+    {
+      "id": "874f",
+      "content": "and we declared onSuccess function also which used a instance of useQueryClient to invalidateQuery with queryKey ['notes']",
+      "important": false
+    }
+  ]
+}
